@@ -1,0 +1,93 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="3.11" />
+            <item index="1" class="java.lang.String" itemvalue="3.12" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="69">
+            <item index="0" class="java.lang.String" itemvalue="tabulate" />
+            <item index="1" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="2" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="3" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="4" class="java.lang.String" itemvalue="redis" />
+            <item index="5" class="java.lang.String" itemvalue="holidays" />
+            <item index="6" class="java.lang.String" itemvalue="python-geohash" />
+            <item index="7" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="8" class="java.lang.String" itemvalue="ldap" />
+            <item index="9" class="java.lang.String" itemvalue="pymssql" />
+            <item index="10" class="java.lang.String" itemvalue="bleach" />
+            <item index="11" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="12" class="java.lang.String" itemvalue="cx_Oracle" />
+            <item index="13" class="java.lang.String" itemvalue="Werkzeug" />
+            <item index="14" class="java.lang.String" itemvalue="sqlalchemy-utils" />
+            <item index="15" class="java.lang.String" itemvalue="cryptography" />
+            <item index="16" class="java.lang.String" itemvalue="typing-extensions" />
+            <item index="17" class="java.lang.String" itemvalue="deprecation" />
+            <item index="18" class="java.lang.String" itemvalue="click" />
+            <item index="19" class="java.lang.String" itemvalue="sqlalchemy" />
+            <item index="20" class="java.lang.String" itemvalue="simplejson" />
+            <item index="21" class="java.lang.String" itemvalue="pyyaml" />
+            <item index="22" class="java.lang.String" itemvalue="flask-talisman" />
+            <item index="23" class="java.lang.String" itemvalue="clickhouse-connect" />
+            <item index="24" class="java.lang.String" itemvalue="humanize" />
+            <item index="25" class="java.lang.String" itemvalue="wtforms-json" />
+            <item index="26" class="java.lang.String" itemvalue="sqlalchemy-hana" />
+            <item index="27" class="java.lang.String" itemvalue="wtforms" />
+            <item index="28" class="java.lang.String" itemvalue="flask" />
+            <item index="29" class="java.lang.String" itemvalue="msgpack" />
+            <item index="30" class="java.lang.String" itemvalue="polyline" />
+            <item index="31" class="java.lang.String" itemvalue="flask-migrate" />
+            <item index="32" class="java.lang.String" itemvalue="geopy" />
+            <item index="33" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="34" class="java.lang.String" itemvalue="isodate" />
+            <item index="35" class="java.lang.String" itemvalue="flask-caching" />
+            <item index="36" class="java.lang.String" itemvalue="numpy" />
+            <item index="37" class="java.lang.String" itemvalue="pyasn1" />
+            <item index="38" class="java.lang.String" itemvalue="ldap3" />
+            <item index="39" class="java.lang.String" itemvalue="flask-compress" />
+            <item index="40" class="java.lang.String" itemvalue="parsedatetime" />
+            <item index="41" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="42" class="java.lang.String" itemvalue="clickhouse_sqlalchemy" />
+            <item index="43" class="java.lang.String" itemvalue="celery" />
+            <item index="44" class="java.lang.String" itemvalue="selenium" />
+            <item index="45" class="java.lang.String" itemvalue="cron-descriptor" />
+            <item index="46" class="java.lang.String" itemvalue="flask-login" />
+            <item index="47" class="java.lang.String" itemvalue="markdown" />
+            <item index="48" class="java.lang.String" itemvalue="hdbcli" />
+            <item index="49" class="java.lang.String" itemvalue="flask-appbuilder" />
+            <item index="50" class="java.lang.String" itemvalue="pyarrow" />
+            <item index="51" class="java.lang.String" itemvalue="blinker" />
+            <item index="52" class="java.lang.String" itemvalue="croniter" />
+            <item index="53" class="java.lang.String" itemvalue="backoff" />
+            <item index="54" class="java.lang.String" itemvalue="clickhouse_driver" />
+            <item index="55" class="java.lang.String" itemvalue="pgsanity" />
+            <item index="56" class="java.lang.String" itemvalue="cachelib" />
+            <item index="57" class="java.lang.String" itemvalue="xlsxwriter" />
+            <item index="58" class="java.lang.String" itemvalue="sqlalchemy_dremio" />
+            <item index="59" class="java.lang.String" itemvalue="flower" />
+            <item index="60" class="java.lang.String" itemvalue="graphlib-backport" />
+            <item index="61" class="java.lang.String" itemvalue="pandas" />
+            <item index="62" class="java.lang.String" itemvalue="slack_sdk" />
+            <item index="63" class="java.lang.String" itemvalue="sshtunnel" />
+            <item index="64" class="java.lang.String" itemvalue="func_timeout" />
+            <item index="65" class="java.lang.String" itemvalue="colorama" />
+            <item index="66" class="java.lang.String" itemvalue="flask-wtf" />
+            <item index="67" class="java.lang.String" itemvalue="pillow" />
+            <item index="68" class="java.lang.String" itemvalue="hashids" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

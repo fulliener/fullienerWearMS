@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fw-auth-service"
+version = "0.1.0"
+description = "FullienerWear Authentication Service"
+authors = ["Ruslan Akperov <ruslanakperov80857@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.2"
+uvicorn = "^0.29.0"
+sqlalchemy = "^2.0.29"
+pydantic = "1.10.11"
+fastapi-jwt-auth = "^0.5.0"
+passlib = "^1.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

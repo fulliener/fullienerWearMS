@@ -1,0 +1,36 @@
+version: "3.7"
+
+services:
+    nginx:
+        image: nginx
+        ports:
+            - "8000:8000"
+        restart: unless-stopped
+        depends_on:
+            -   frontend
+        volumes:
+            -   ./nginx.conf:/etc/nginx/conf.d/default.conf
+    auth-service:
+        build:
+          context: auth-service
+          dockerfile: Dockerfile
+        volumes:
+          - "./auth-service/app:/app"
+        restart: unless-stopped
+    good-service:
+        build:
+          context: good-service
+          dockerfile: Dockerfile
+        restart: unless-stopped
+        volumes:
+          - "./good-service/app:/app"
+        depends_on:
+            -   auth-service
+    frontend:
+        build:
+          context: frontend
+          dockerfile: Dockerfile
+        restart: unless-stopped
+        depends_on:
+            -   auth-service
+            -   good-service
